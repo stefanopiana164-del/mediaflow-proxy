@@ -2,6 +2,7 @@ services:
   - type: web
     name: mediaflow-proxy
     env: docker
+    image: mhdzumair/mediaflow-proxy:latest
     plan: free
     region: frankfurt
     envVars:
