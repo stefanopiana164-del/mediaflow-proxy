@@ -1,0 +1,11 @@
+YAML
+
+services:
+  - type: web
+    name: mediaflow-proxy
+    env: docker
+    plan: free
+    region: frankfurt
+    envVars:
+      - key: API_PASSWORD
+        value: CasaStefano14
